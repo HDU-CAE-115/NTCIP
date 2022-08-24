@@ -8,7 +8,7 @@
 ## 安装SNMP
 &emsp;&emsp;根据*参考教程1和2*安装SNMP，建议安装`5.7.3`版本。安装过程可能会报错，根据错误安装相应的库即可。
 ## 写MIB文件
-* *使用ANS.1写mib文件，例如*参考教程3*中myTest.txt或者myTest.mib。
+* 使用ANS.1写mib文件，例如*参考教程3*中myTest.txt或者myTest.mib。
 * DEFINITIONS ::= BEGIN 前的名称是库名。
 * IMPORTS标识当前库文件需要引入其它的类文件,编译才不会出错.引入格式为 [对象]FROM[库文件]。
 * NODENAME为当前节点的名称,如sysDescs,这个名称应该是唯一的,NODETYPE为当前节点的类型,如MODULE-IDENTITY,OBJECT-TYPE等等,
